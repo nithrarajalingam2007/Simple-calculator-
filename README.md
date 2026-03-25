@@ -1,2 +1,24 @@
-# Simple-calculator-
-This project is a simple calculator program that performs basic arithmetic operations like addition, subtraction, multiplication, and division. It helps in understanding basic programming logic, user input, and decision-making using conditions.
+# Simple Calculator
+
+print("Simple Calculator")
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("1. Add")
+print("2. Subtract")
+print("3. Multiply")
+print("4. Divide")
+
+choice = input("Choose operation (1/2/3/4): ")
+
+if choice == '1':
+    print("Result:", a + b)
+elif choice == '2':
+    print("Result:", a - b)
+elif choice == '3':
+    print("Result:", a * b)
+elif choice == '4':
+    print("Result:", a / b)
+else:
+    print("Invalid choice")
